@@ -1,0 +1,143 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #675D50;
+  }
+
+  .header.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./img/main.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 70vh;
+  }
+
+  .header img{
+    width: 100%;
+    max-height: 80vh;
+  }
+  
+  .header .name {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .header ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .header li {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 18px;
+  }
+
+  .header li a{
+    color: #675D50;
+    text-decoration: none;
+  }
+
+  .header li:hover a{
+    text-decoration: underline;
+  }
+
+  .content{
+    width: 800px;
+    margin: 30px auto;
+    color: #675D50;
+  }
+
+  .content img{
+    max-width: 100%;
+  }
+  .content p {
+    font-size: 20px;
+  }
+
+  .footer{
+    width: 800px;
+    margin: 30px auto;
+    color: #675D50;
+  }
+
+  .contacts{
+    margin: 100px 0;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .contacts li{
+    list-style: none;
+    margin: 30px 0;
+  }
+
+  .contacts li a{
+    text-decoration: none;
+    color: #675D50;
+  }
+
+  .contacts li a:hover{
+    text-decoration: underline;
+  }
+
+  .about{
+    margin: 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about p{
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .content a.action{
+    background-color: #675D50;
+    color: #F3DEBA;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .content a.action:HOVER{
+    color: #ABC4AA;
+  }
+
+ 
+  .image-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .image-row img{
+    width: 300px;
+    margin: 20px;
+  }
